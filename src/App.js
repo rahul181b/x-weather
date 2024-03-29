@@ -38,7 +38,7 @@ function App() {
         <input className="searchbox" type="text" placeholder="Enter city name" onChange={(e) => setCity(e.target.value)} />
         <button type="submit" onClick={() => handleSearch(city)}>Search</button>
       </div>
-      {isLoading && <div style={{ textAlign: "center", margin: "auto" }}> <p>Loading...</p> </div>}
+      {isLoading && <div style={{ textAlign: "center", margin: "auto" }}> <p>Loading data...</p> </div>}
       {data != null ? (
         <div className="display-Data">
           <div className="weather-card">
