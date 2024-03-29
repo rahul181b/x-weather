@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body {
+   background-color: rgb(240, 248, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display-search {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   gap: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchbox {
+   padding: 10px;
+   border: 0px solid;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 255);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+   background-color: rgb(76, 175, 80);
+   color: rgb(255, 255, 241);
+   border: 0px solid;
+   padding: 10px;
+   border-radius: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+h2 {
+   margin: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.display-Data {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   text-align: center;
+}
+.weather-card {
+   background-color: rgb(255, 255, 255);
+   margin: 30px;
+   width: 300px;
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   justify-content: center;
 }
